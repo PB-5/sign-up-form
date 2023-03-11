@@ -79,7 +79,7 @@ label {
 }
 
 .input-selection {
-    padding: 1.0rem 2vw 3rem 2vw;
+    padding: 1.0rem 2vw 1.5rem 2vw;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -91,6 +91,9 @@ input {
     border: 1px solid #dfdfdf;
     box-sizing: border-box;
     width: 50%;
+
+    margin-top: -5px;
+    margin-bottom: 10px;
 }
 
 input:focus {
@@ -100,12 +103,18 @@ input:focus {
 }
 
 input:invalid:focus {
-    border: 2px solid rgb(212, 26, 26);
+    border: 2px solid rgb(231, 13, 13);
 } 
 
 input:focus:valid {
     border: 2px solid rgb(51, 219, 35);
   }
+
+.erorr {
+    font-size: 0.7rem;
+    color: rgb(231, 13, 13);
+    position: absolute;
+}
 
 a {  /* Log in */
     text-decoration: none;  
@@ -132,4 +141,18 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
     background-color: rgb(23, 23, 177);
+}
+
+@media screen and (max-width: 850px) {
+    .main {
+        flex-direction: column;
+    }
+    .side-hero {
+        width: 0vw;
+        height: 2rem;
+    }
+
+    .form-selection, form, .submit-section {
+        width: 100vw;
+    }
 }
