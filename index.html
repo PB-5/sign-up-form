@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="side-hero"> </div>
+    <div class="form-selection">
+        <div>
+        <div class="header">
+            <img src="./imgs/logo.png" alt="Logo">
+        <div>
+            <p class="intro">Join one of the leading experts in the FX Market today. We pride ourselves in the analysis we provide and our oversimplied approach to the market. </p>
+        </div>
+        </div>
+        <div>
+            <div class="input-selection">
+                <p class="sign-up-gap">Sign Up.</p>
+                <form id="my-form">
+                    <label for="firstname">FIRST NAME</label>
+                    <input type="text" id="firstname" name="firstname" required/>
+                    <div id="first-name-error" class="error"></div>
+                    </label>
+                    <label for="lastname">LAST NAME</label>
+                    <input type="text" id="lastname" name="lastname" required/>
+                    <div id="last-name-error" class="error"></div>
+                    </label>
+                    <label for="email">EMAIL</label>
+                    <input type="email" id="mail" name="email" required autocomplete="off">
+                    <div id="email-error" class="error"></div>
+                    </label>
+                    <label for="phonenumber">PHONE NUMBER</label>
+                    <input type="tel" id="phonenumber" name="phonenumber" required pattern="[0,9]{11}">
+                    <div id="tel-error" class="error"></div>
+                    </label>
+                    <label for="password">PASSWORD</label>
+                    <input type="password" id="password" name="password" required pattern="(?=.*\d)(?=.*[a-z])(>=.*[A-Z]),{8,}">
+                    <div id="password-error" class="error"></div>
+                    </label>
+                    <label for="passwordC">CONFIRM PASSWORD</label>
+                    <input type="password" id="passwordC" name="passwordC" required pattern="(?=.*\d)(?=.*[a-z])(>=.*[A-Z]),{8,}">
+                    <div id="passwordC-error" class="error"></div>
+                    </label>
+                </form>
+            </div>
+        </div>
+        <div class="submit-section">
+            <div>
+                <button type="submit" form="my-form">Create Account</button>
+                <p>Already have an account?
+                    <a href="#">Log in</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
