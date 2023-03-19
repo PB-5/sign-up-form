@@ -1,4 +1,4 @@
-# Sign-UP Form Project
+# Sign-Up Form Project
 
 The goal of this repo is to practice the following skill sets:
 
