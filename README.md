@@ -35,6 +35,6 @@ I have struggled to make the page responsive for different resolutions other tha
 
 ## Screenshots
 
-![Screenshot](images/Screenshot1.png)
+![Screenshot](images/Screenshot1.PNG)
 
-![Validation](images/Screenshot2.png)
+![Validation](images/Screenshot2.PNG)
