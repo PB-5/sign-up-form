@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: Merriweather;
-    src: url(./fonts/Merriweather-Regular.ttf);
+    src: url(./custom-fonts/Merriweather-Regular.ttf);
   }
   
 @font-face {
     font-family: EBGaramond;
-    src: url(./fonts/EBGaramond-Regular.ttf);
+    src: url(./custom-fonts/EBGaramond-Regular.ttf);
 }
 
 html body {
@@ -30,7 +30,7 @@ html body {
     display: flex;
     width: 60vw;
     height: 100vh;
-    background: url(./imgs/bull-bg.jpg);
+    background: url(./images/bull-bg.jpg);
     background-size: cover;
 
     flex-grow: 1;
