@@ -27,6 +27,8 @@ The goal of this repo is to practice the following skill sets:
 
 ## Summary 
 
+The whole concept is a made up firm and the logo was custom as well. 
+
 A combination of built-in HTML and JavaScript constraint validation were used to accomplish this project. I didn't want to aggressively alert the user of input errors before they had a chance to complete the form so validation occurs after the submit button is pressed for the first time.
 
 The custom error messages appear when a user starts entering an input and unfocuses to a different field. The phone number and password have their own regex patterns and have to match the requirements the error indicates with the use of `validity.patternMismatch` and `validity.typeMismatch` for the email.
